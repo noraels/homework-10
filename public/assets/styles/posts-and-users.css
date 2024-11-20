@@ -1,0 +1,75 @@
+/* Shared Styles */
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.margin-ten {
+    margin-top: 10px;
+}
+
+.margin-twenty {
+    margin-top: 20px;
+}
+
+.margin-thirty {
+    margin-top: 30px;
+}
+
+.error-border {
+    border: 2px solid red;
+}
+
+.error-text {
+    color: red;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.delete-button {
+    max-width: 200px;
+}
+
+/* Main Layout for Users and Posts */
+.main-container {
+    display: flex;
+    justify-content: space-between; /* Space between Users and Posts */
+    gap: 20px; /* Add spacing between the two sections */
+}
+
+.users-form,
+.posts-form {
+    width: 45%; /* Ensure equal width */
+    max-width: none; /* Remove hard 600px width */
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+
+.user-container,
+.post-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user,
+.post {
+    font-weight: 500;
+}
+
+/* Specific IDs for Users */
+#users-container {
+    display: block;
+}
+
+/* Specific IDs for Posts */
+#posts-container {
+    display: block;
+}

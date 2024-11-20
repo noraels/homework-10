@@ -1,0 +1,13 @@
+1. PDOs are a built in class that comes with PHP that makes it easier to interact with databases. It represents and manages
+the connection to the database. Through the PDOs, PHP can take SQL as input and return results from the database and store
+it in variables. A DSN (data source name) is a string that contains information about the connection to the database. They 
+instantiate PDO objects.
+2. .env files are files containing environment variables (variables whose values are set outside the program,
+typically through a functionality built into the operating system). It will exist in the environment(OS) we are running our 
+application on and set variables specific to the environment. A gitignore file is a text file that tells Git which files or 
+folders to ignore in a project (such as the .env file).
+3. No, sensitive/personal data should never be uploaded to github
+4. An SQL injection is when a hacker tries to run malicious sql code in a database. 
+5. Prepared statements are parameterized and reusable SQL queries which force the developer to write the SQL command 
+and the user-provided data separately. Variables are passed to a prepared statement by using an associative array where 
+the keys match the named placeholders in the query. This array is passed to the execute() method.
